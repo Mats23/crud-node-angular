@@ -1,15 +1,15 @@
 # crud-node-angular
 
 
-#comandos para o back e front dentro das respectivas pastas
+#Comandos para o back e front dentro das respectivas pastas
 ```
 npm i 
 
 ```
 
 
-#comando para subir o banco de dados
-dentro da pasta "db" executar o docker-compose
+#Comando para subir o banco de dados
+Dentro da pasta "db" execute o docker-compose
 ```
 docker-compose -f stack.yml up
 ```
@@ -28,12 +28,12 @@ npm install -g migrate-mongo
  ```
 
 
-# start front
+# Start front
 ```
 npm start
 ```
 
-# start back
+# Start back
 ```
 npm run local
 ```
