@@ -11,7 +11,6 @@ class AuthController {
         if(authData != null) {
             return res.json({status: 200, data: authData});
         }
-
         return res.json({status:200, mensagem: "Usuário ou senha invalidos"});
     }
 
