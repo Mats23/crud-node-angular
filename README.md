@@ -1,14 +1,16 @@
 # crud-node-angular
 
 
-#Comandos para o back e front dentro das respectivas pastas:
+#Comandos para o back e front
+
+Dentro das respectivas pastas:
 ```
 npm i 
 
 ```
 
 
-#Comando para subir o banco de dados:
+#Comando para subir o banco de dados
 
 Dentro da pasta "db" execute o docker-compose:
 ```
