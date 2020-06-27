@@ -6,7 +6,6 @@
 Dentro das respectivas pastas:
 ```
 npm i 
-
 ```
 
 
