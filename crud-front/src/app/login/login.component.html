@@ -1,0 +1,20 @@
+<div class="container">
+        <mat-card class="content">
+            <div class="example-container">
+                <div class="form">
+                        <form [formGroup]="loginForm">
+                          <mat-form-field>
+                            <input matInput formControlName="loginInput" placeholder="Login">
+                          </mat-form-field>
+                          <mat-form-field>
+                            <input matInput formControlName="senhaInput" type="password" placeholder="Senha">
+                          </mat-form-field>
+                          <button (click)="logar()" mat-raised-button color="primary"
+                            matBadgePosition="before" matBadgeColor="accent">
+                              Logar
+                          </button>
+                        </form>     
+                </div>
+            </div>
+        </mat-card>
+</div>

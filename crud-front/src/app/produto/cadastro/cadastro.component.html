@@ -1,0 +1,44 @@
+<app-header></app-header>
+
+
+
+
+<div class="container">
+    <mat-card class="content">
+        <div class="example-container">
+            <mat-grid-list cols="12" rowHeight="90px">
+                <div class="form">
+                    <form [formGroup]="formCadastro">
+                       <mat-grid-tile colspan="10">
+                            <mat-form-field>
+                                <input matInput formControlName="inputNome" placeholder="Nome">
+                            </mat-form-field>
+                       </mat-grid-tile>
+
+                       <mat-grid-tile colspan="10">
+                            <mat-form-field>
+                                <input matInput currencyMask [(ngModel)]="value" formControlName="inputPreco"  [options]="{ prefix: 'R$ ', thousands: '.', decimal: ',' }" placeholder="Preço">
+                            </mat-form-field>     
+                       </mat-grid-tile>
+                       <mat-grid-tile colspan="8">
+                            <span>{{ nomeFile }} </span>
+                       </mat-grid-tile>
+                       <mat-grid-tile colspan="2">
+                        <button mat-mini-fab color="primary">
+                            <input class="input-file" type="file"  formControlName="inputFile" (change)="file($event.target.files)" placeholder="Imagem">
+                                <mat-icon>attach_file</mat-icon>
+                            </button>
+                       </mat-grid-tile>
+                       <mat-grid-tile colspan="10">
+                         <button mat-raised-button color="primary"
+                            matBadgePosition="before" (click)="cadastrar()" matBadgeColor="accent">
+                            Cadastrar
+                         </button>
+                       </mat-grid-tile>
+                    </form>
+                </div>   
+            </mat-grid-list>
+        </div>
+    </mat-card>
+</div>
+
