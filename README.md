@@ -1,7 +1,7 @@
 # crud-node-angular
 
 
-# comandos para o back e front dentro das respectivas pastas
+#comandos para o back e front dentro das respectivas pastas
 ```
 npm i 
 
