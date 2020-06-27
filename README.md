@@ -15,7 +15,13 @@ docker-compose -f stack.yml up
 ```
 
 #Migrations
- na pasta crud-back\src\migration executar:
+execute o seguinte comando: 
+
+```
+npm install -g migrate-mongo
+```
+
+ Em seguida na pasta crud-back\src\migration executar:
  ```
  migrate-mongo up
  
