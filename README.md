@@ -8,7 +8,8 @@ npm i
 ```
 
 
-#Comando para subir o banco de dados
+#Comando para subir o banco de dados:
+
 Dentro da pasta "db" execute o docker-compose:
 ```
 docker-compose -f stack.yml up
