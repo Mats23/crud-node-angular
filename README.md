@@ -32,4 +32,5 @@ npm start
 npm run local
 ```
 
-
+Login: admin
+Senha: admin
