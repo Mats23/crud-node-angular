@@ -1,0 +1,12 @@
+.form-cadastro {
+
+  display: flex;
+  height: 312px;
+  margin-top: 25%;
+  justify-content: center;
+
+}
+
+.MuiGrid-spacing-xs-1 > .MuiGrid-item {
+  padding: 6px !important;
+}
